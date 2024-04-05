@@ -2,7 +2,6 @@
 .xmake/
 build/
 compile_commands.json
-.gitignore
 
 # MacOS Cache
 .DS_Store
