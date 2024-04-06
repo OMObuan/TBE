@@ -1,8 +1,6 @@
-#include <iostream>
+// Copyright 2024
+// OMObuan
 
-using namespace std;
+import rename_mod;
 
-int main(int argc, char** argv) {
-    cout << "hello world!" << endl;
-    return 0;
-}
+i32 main(i32, char *[]) { return 0; }

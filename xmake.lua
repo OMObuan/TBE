@@ -2,11 +2,13 @@ add_rules("mode.debug", "mode.release")
 add_rules("plugin.compile_commands.autoupdate", { outputdir = "." })
 set_languages("c++20")
 
-target("template")
+target("TBE")
 set_warnings("everything")
-set_kind()
-add_files()
-add_includedirs()
+set_kind("binary")
+add_files("src/*.cpp")
+add_files("src/*.cppm")
+set_policy("build.c++.modules", true)
+add_includedirs("include/TBE")
 
 --
 -- If you want to known more usage about xmake, please see https://xmake.io
