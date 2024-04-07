@@ -1,11 +1,21 @@
 [
 {
-  "directory": "/home/omo/文档/code_space/cpp_code/TBE",
-  "arguments": ["/home/omo/llvm-project/build/bin/clang", "-c", "-Qunused-arguments", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-Weverything", "-O3", "-std=c++20", "-Iinclude/TBE", "-DNDEBUG", "-x", "c++-module", "-fmodule-output=build/.gens/TBE/linux/x86_64/release/rules/bmi/cache/modules/de76e129/rename_mod.pcm", "-o", "build/.objs/TBE/linux/x86_64/release/src/rename.cppm.o", "src/rename.cppm"],
+  "directory": "/home/omo/code-space/cpp/TBE",
+  "arguments": ["/usr/bin/clang", "-c", "-Qunused-arguments", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-Weverything", "-O3", "-std=c++20", "-I", "/home/omo/code-space/cpp/TBE/build/.packages/g/googletest/latest/5e932289495e4d1ba23bdca998625cd8/include", "-DNDEBUG", "-x", "c++-module", "-fmodule-output=build/.gens/TBE/linux/x86_64/release/rules/bmi/cache/modules/25df1fdb/rename_mod.gcm", "-o", "build/.objs/TBE/linux/x86_64/release/src/rename.cppm.o", "src/rename.cppm"],
   "file": "src/rename.cppm"
 },
 {
-  "directory": "/home/omo/文档/code_space/cpp_code/TBE",
-  "arguments": ["/home/omo/llvm-project/build/bin/clang", "-c", "-Qunused-arguments", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-Weverything", "-O3", "-std=c++20", "-Iinclude/TBE", "-DNDEBUG", "-fmodule-file=rename_mod=build/.gens/TBE/linux/x86_64/release/rules/bmi/cache/modules/de76e129/rename_mod.pcm", "-o", "build/.objs/TBE/linux/x86_64/release/src/main.cpp.o", "src/main.cpp"],
+  "directory": "/home/omo/code-space/cpp/TBE",
+  "arguments": ["/usr/bin/clang", "-c", "-Qunused-arguments", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-Weverything", "-O3", "-std=c++20", "-I", "/home/omo/code-space/cpp/TBE/build/.packages/g/googletest/latest/5e932289495e4d1ba23bdca998625cd8/include", "-DNDEBUG", "-fmodule-file=rename_mod=build/.gens/TBE/linux/x86_64/release/rules/bmi/cache/modules/25df1fdb/rename_mod.gcm", "-x", "c++-module", "-fmodule-output=build/.gens/TBE/linux/x86_64/release/rules/bmi/cache/modules/25df1fdb/get_keyboard_info_mod.gcm", "-o", "build/.objs/TBE/linux/x86_64/release/src/get_keyboard_info.cppm.o", "src/get_keyboard_info.cppm"],
+  "file": "src/get_keyboard_info.cppm"
+},
+{
+  "directory": "/home/omo/code-space/cpp/TBE",
+  "arguments": ["/usr/bin/clang", "-c", "-Qunused-arguments", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-Weverything", "-O3", "-std=c++20", "-I", "/home/omo/code-space/cpp/TBE/build/.packages/g/googletest/latest/5e932289495e4d1ba23bdca998625cd8/include", "-DNDEBUG", "-fmodule-file=get_keyboard_info_mod=build/.gens/TBE/linux/x86_64/release/rules/bmi/cache/modules/25df1fdb/get_keyboard_info_mod.gcm", "-fmodule-file=rename_mod=build/.gens/TBE/linux/x86_64/release/rules/bmi/cache/modules/25df1fdb/rename_mod.gcm", "-o", "build/.objs/TBE/linux/x86_64/release/src/main.cpp.o", "src/main.cpp"],
   "file": "src/main.cpp"
+},
+{
+  "directory": "/home/omo/code-space/cpp/TBE",
+  "arguments": ["/usr/bin/clang", "-c", "-Qunused-arguments", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-Weverything", "-O3", "-std=c++20", "-I", "/home/omo/code-space/cpp/TBE/build/.packages/g/googletest/latest/5e932289495e4d1ba23bdca998625cd8/include", "-DNDEBUG", "-fmodule-file=get_keyboard_info_mod=build/.gens/TBE/linux/x86_64/release/rules/bmi/cache/modules/25df1fdb/get_keyboard_info_mod.gcm", "-fmodule-file=rename_mod=build/.gens/TBE/linux/x86_64/release/rules/bmi/cache/modules/25df1fdb/rename_mod.gcm", "-o", "build/.objs/TBE/linux/x86_64/release/src/get_keyboard_info.cpp.o", "src/get_keyboard_info.cpp"],
+  "file": "src/get_keyboard_info.cpp"
 }]
